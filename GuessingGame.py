@@ -38,7 +38,7 @@ if val == num:
 else:
     print('Trials Exhausted! The correct value is ' + str(num))
 
-print("Closing Program in 3...  ")
+print("Closing the Program in 3...  ")
 time.sleep(1)
 print("                   2...  ")
 time.sleep(1)
