@@ -26,7 +26,7 @@ while i < 5:
     val = int(input("What is your guess No. " + str(i) + " : "))
 
     if val == num:
-        print("Correct! You got it " + Name + ", and it took you " + str(i) + " guesse(s)")
+        print("Correct! You got it " + Name + ", and it took you " + str(i) + " guess(es)")
         break
     elif val > num:
         print("Too High! Try a lesser number")
