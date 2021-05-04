@@ -97,4 +97,4 @@ while True:
         winner()
 
     else:
-        print("Something is wrong")
+        print("Invalid Input")
