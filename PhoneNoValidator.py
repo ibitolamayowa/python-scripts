@@ -1,7 +1,7 @@
 #! python3
 # Program to detect the validity of a Nigerian Phone Number
 
-def PhoneNumber(text):
+def phonenumber(text):
     if len(text) == 11:
         print("Correct Number")
 
@@ -17,8 +17,8 @@ def PhoneNumber(text):
 
 
 while True:
-    text = str(input("Insert phone number: "))
-    PhoneNumber(text)
+    text = str(input("Insert the phone number: "))
+    phonenumber(text)
     if len(text) != 14 and len(text) != 11:
         continue
     else:
