@@ -3,11 +3,11 @@
 
 def phonenumber(text):
     if len(text) == 11:
-        print("Correct Number")
+        print("This is a correct Number")
 
     elif len(text) == 14:
         if not text.startswith('+234'):
-            print("Incorrect Phone Number")
+            print("This is an incorrect Phone Number")
 
         else:
             print("Correct Number")
