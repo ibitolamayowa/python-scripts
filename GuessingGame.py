@@ -18,7 +18,7 @@ time.sleep(1)
 print("Go!!!")
 
 
-num = random.randint(1,10)
+num = random.randint(1, 10)
 
 i = 0
 while i < 5:
