@@ -23,7 +23,7 @@ num = random.randint(1, 10)
 i = 0
 while i < 5:
     i = i + 1
-    val = int(input("What is your guess No. " + str(i) + " : "))
+    val = int(input("What is your Guess No. " + str(i) + " : "))
 
     if val == num:
         print("Correct! You got it " + Name + ", and it took you " + str(i) + " guess(es)")
